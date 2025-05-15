@@ -38,7 +38,7 @@ The entire pipeline is deployed through an interactive **Streamlit** web app tha
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yihan-zhou02/sentitrend.git
+git clone https://github.com/yihan-zhou02/paml_final_project.git
 cd sentitrend
 ```
 ### 2. Install dependencies
