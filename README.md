@@ -2,6 +2,17 @@
 
 This project was developed for the **Practical Applications of Machine Learning (PAML)** course at Cornell Tech. It demonstrates how interpretable machine learning models can be used to classify sentiment in social media posts and uncover temporal trends using real-world data.
 
+Our teammembers are: Sylvia Li, Yifei Hu, Xavier Yin and Yihan Zhou.
+
+## 📂 Dataset Note
+Due to GitHub's file size limitation (100 MB), we do not include the full Sentiment140 dataset in this repository.
+
+You can download the complete dataset (1.6 million tweets) from the official Kaggle page:
+
+🔗 [Sentiment140 Dataset on Kaggle](https://www.kaggle.com/datasets/kazanova/sentiment140)
+
+This repository includes a randomly sampled subset of **20,000 tweets**, stored in `sentiment140_sampled_20000.csv`, which we used for model training, evaluation, and demonstration in the Streamlit application.
+
 ## 🔍 Project Overview
 
 We implemented two baseline classification models:
@@ -23,7 +34,7 @@ The entire pipeline is deployed through an interactive **Streamlit** web app tha
 ```bash
 git clone https://github.com/yihan-zhou02/sentitrend.git
 cd sentitrend
-
+```
 ### 2. Install dependencies
 ```bash
 python -m venv venv
@@ -31,7 +42,7 @@ source venv/bin/activate # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
-3. Run the Streamlit app
+### 3. Run the Streamlit app
 ```bash
 streamlit run streamlit_app/final_project.py
 ```
