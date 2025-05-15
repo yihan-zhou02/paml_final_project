@@ -5,13 +5,19 @@ This project was developed for the **Practical Applications of Machine Learning 
 Our teammembers are: Sylvia Li, Yifei Hu, Xavier Yin and Yihan Zhou.
 
 ## 📂 Dataset Note
-Due to GitHub's file size limitation (100 MB), we do not include the full Sentiment140 dataset in this repository.
+Due to GitHub's file size limitation (100 MB), we use Git LFS to include the full Sentiment140 dataset in this repository.
 
-You can download the complete dataset (1.6 million tweets) from the official Kaggle page:
+So you need to first initialize Git LFS in your local repository:
+```bash
+git lfs install
+```
+Then, you can clone the repository and download the dataset.
+
+You can also download the complete dataset (1.6 million tweets) from the official Kaggle page:
 
 🔗 [Sentiment140 Dataset on Kaggle](https://www.kaggle.com/datasets/kazanova/sentiment140)
 
-This repository includes a randomly sampled subset of **20,000 tweets**, stored in `sentiment140_sampled_20000.csv`, which we used for model training, evaluation, and demonstration in the Streamlit application.
+This repository also includes a randomly sampled subset of **20,000 tweets**, stored in `sentiment140_sampled_20000.csv`, which we used for model training, evaluation, and demonstration in the Streamlit application.
 
 ## 🔍 Project Overview
 
